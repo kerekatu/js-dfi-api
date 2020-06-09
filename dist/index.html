@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFI API</title>
+    <link rel="stylesheet" href="/style.c61ab535.css">
+    <script src="/opgave2-3.69f1fddd.js" defer=""></script>
+  <script src="/style.c61ab535.js"></script></head>
+  <body>
+    <main class="container">
+      <div class="films">
+        <form class="films__search">
+          <div class="films__search-box">
+            <label for="input-title" class="films__label">Search For A Movie:</label>
+            <input type="text" id="input-title" placeholder="Search...">
+          </div>
+
+          <div class="films__search-box">
+            <label for="select-date-end" class="films__label">Date Start:</label>
+            <select name="select-date-end" id="select-date-end">
+              <option value="2020" selected="">2020</option>
+              <option value="2010">2010</option>
+              <option value="2000">2000</option>
+              <option value="1990">1990</option>
+              <option value="1980">1980</option>
+              <option value="1970">1970</option>
+              <option value="1960">1960</option>
+              <option value="1950">1950</option>
+              <option value="1940">1940</option>
+            </select>
+          </div>
+
+          <div class="films__search-box">
+            <label for="select-date-start" class="films__label">Date End:</label>
+            <select name="select-date-start" id="select-date-start">
+              <option value="2020">2020</option>
+              <option value="2010">2010</option>
+              <option value="2000">2000</option>
+              <option value="1990">1990</option>
+              <option value="1980">1980</option>
+              <option value="1970">1970</option>
+              <option value="1960">1960</option>
+              <option value="1950">1950</option>
+              <option value="1940" selected="">1940</option>
+            </select>
+          </div>
+        </form>
+        <div id="results" class="films__results"></div>
+      </div>
+    </main>
+  </body>
+</html>
